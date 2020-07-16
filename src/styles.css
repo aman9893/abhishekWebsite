@@ -1,1 +1,266 @@
-/* You can add global styles to this file, and also import other style files */
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 600px) {
+    .imgoc{
+        width: 200px !important;
+    }
+    #carousel .carousel-item {
+        height: 100vh;
+        width: 100%;
+        min-height: 150px !important;
+        background: no-repeat center center scroll;
+        background-size: cover;
+      }
+      
+}.lending-help-main{
+    margin-top: 23px;
+    margin-bottom: 12px;
+    background: #fff;
+    position: relative;
+    border-radius: 8px;
+    padding: 17px 30px 12px;
+    /* margin: 53px 8px 30px; */
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,0);
+}
+
+.lending-section{
+    margin-top: 23px;
+    margin-bottom: 12px;
+    background: #fff;
+    position: relative;
+    border-radius: 8px;
+    padding: 17px 30px 12px;
+    /* margin: 53px 8px 30px; */
+    -webkit-transition-duration: .15s;
+    transition-duration: .15s;
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,0);
+}
+.imgoc{
+    width: 462px;
+}
+
+
+.pb-100 {
+	padding-bottom: 100px;
+}
+.pt-100 {
+	padding-top: 100px;
+}
+.mb-100 {
+	margin-bottom: 100px;
+}
+a {
+	text-decoration: none;
+	color: #333;
+	-webkit-transition: .4s;
+	transition: .4s;
+}
+.section-title {
+	position: relative;
+}
+.section-title p {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+.section-title h4 {
+	font-size: 40px;
+	font-weight: 600;
+	text-transform: capitalize;
+	position: relative;
+	padding-bottom: 20px;
+	display: inline-block;
+}
+.section-title h4::before {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 2px;
+	background-color: #d8d8d8;
+	bottom: 0;
+	left: 50%;
+	margin-left: -40px;
+}
+.section-title h4::after {
+	position: absolute;
+	content: "";
+	width: 50px;
+	height: 2px;
+	background-color: #FF7200;
+	left: 0;
+	bottom: 0;
+	left: 50%;
+	margin-left: -25px;
+}
+.contact {
+	background-image: url("http://infinityflamesoft.com/html/abal-preview/assets/img/contact_back.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	position: relative;
+	z-index: 2;
+	color: #fff;
+}
+.contact-form input,
+textarea {
+	width: 100%;
+	border: 1px solid #f7f7f7;
+	padding: 5px 10px;
+	text-transform: capitalize;
+	margin-top: 15px;
+	background-color: transparent;
+	color: #fff;
+}
+.contact:before {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: #333;
+	z-index: -1;
+	opacity: .85;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=85)";
+}
+.single-contact {
+	text-align: left;
+	position: relative;
+	padding-left: 48px;
+	margin-bottom: 50px;
+	margin-top: 10px;
+}
+.single-contact i.fa {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	        transform: translateY(-50%);
+	background-color: #FF7200;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 3px;
+}
+.single-contact h5 {
+	font-size: 18px;
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+.single-contact p {
+	font-size: 15px;
+	font-weight: 400;
+}
+.contact-form input[type="submit"] {
+	background-color: #FF7200;
+	border: 0px;
+	cursor: pointer;
+	font-size: 16px;
+	-webkit-transition: .4s;
+	transition: .4s
+}
+.contact-form input[type="submit"]:hover {
+	background-color: #CC5B00
+}
+.contact-form input:focus, textarea:focus {
+	border-color: #CC5B00
+}
+.imgcenter{
+	display: block;
+	margin: auto auto;
+	width: 100%;
+}.margnbtn{
+    margin-bottom: 71px;
+}
+
+.headeing_title{
+	color: #0f2d53;
+    font-weight: 500;
+    font-size: 27px;
+    text-align: center;
+}
+.lending-help-main p{
+   text-align: center;
+}
+
+
+  
+  .example-small-box {
+	height: 100px;
+	width: 100px;
+  }
+  
+  .example-large-box {
+	height: 300px;
+	width: 400px;
+  }
+
+  .example-card {
+	max-width: 400px;
+  }
+  
+  .mat-card-avatar {
+    height: 40px;
+    background: darkgreen;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    flex-shrink: 0;
+    text-align: center;
+    object-fit: cover;
+    padding: 8px;
+}
+
+.nav-item > a{
+    font-size: 15px;
+    color: black !important;
+    margin: 5px;
+    font-weight: 500;
+}
+
+.logo{
+    width: 148px;
+}
+.bg-dark {
+    box-shadow: 0 13px 27px -5px rgba(50,50,93,.25), 0 8px 16px -8px rgba(0,0,0,.3), 0 -6px 16px -6px rgba(0,0,0,0) !important;
+    background: #fff !important;
+    color: #132d53 !important;
+
+}
+.navbar-dark .navbar-toggler {
+    color: white !important;
+    border-color: rgba(255,255,255,.1) !important;
+    background: #132d53 !important;
+}
+.as{
+    font-size: 22px;
+    color: #5f9c00;
+    font-weight: 600;
+}
+.ps{
+    font-size: 22px;
+    color: #132d53;
+    font-weight: 600;
+}
+
+.floating-wpp .floating-wpp-input-message textarea {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: none;
+    padding: 8px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    font-family: inherit;
+    font-size: inherit;
+    resize: none;
+    font-weight: bold !important;
+    color: black !important;
+}

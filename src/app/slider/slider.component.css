@@ -1,0 +1,50 @@
+
+.homesliderh1{
+  font-size: 26px;
+  color: #000644;
+  font-weight: bold;
+}
+
+.homesabtitle{
+  font-weight: 500;
+  font-size: 27px;
+  text-align: center;
+  color: white;
+  padding: 40px;
+}
+
+/* Button */
+.delicious-btn {
+  display: inline-block;
+  min-width: 207px;
+  height: 44px;
+  color: #ffffff;
+  border: none;
+  border-left: 3px solid #1c8314;
+  border-radius: 20px;
+  padding: 0px 12px;
+  font-size: 16px;
+  line-height: 44px;
+  font-weight: 600;
+  transition-duration: 500ms;
+  text-transform: capitalize;
+  background-color: #40ba37;
+  outline: none;
+}
+
+.delicious-btn.active, .delicious-btn:hover, .delicious-btn:focus {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #1c8314;
+  border-color: #40ba37;
+}
+.page__section {
+  position: relative;
+  overflow: hidden;
+  background: #132d53;
+  min-height: calc(100vh - 110px);
+  /* background-image: linear-gradient(180deg,#679cf6 0,var(--lb-primary) 50%); */
+  color: #fff;
+  /* height: 425px; */
+}
